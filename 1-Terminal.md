@@ -1,6 +1,7 @@
 <!-- Headings -->
 
 # Terminal Code's
+
 ----
 
 ## Terminal Open Code
@@ -68,4 +69,5 @@ ____
 ####
 
 ---
-<!-- ## The End -->
+
+## The End
