@@ -4,9 +4,9 @@
 
 > ### Sort & reverse
 
-###### sort => All values are stored in alphabetical order
+sort => All values are stored in alphabetical order
 
-###### reverse => Reverse write all values
+reverse => Reverse write all values
 
 ---
 

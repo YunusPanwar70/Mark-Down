@@ -1,54 +1,73 @@
 <!-- Headings -->
 
-# Terminal Code's
+> # Terminal Code's
 
 ----
 
 ## Terminal Open Code
 
-##### 1. ctrl+alt+t = For Open Desktop Terminal
+ctrl + alt + t => For Open Desktop Terminal.
 
-##### 2. Right Click Then Select Terminal For Open Terminal by File
+Right Click Then Select Terminal For Open Terminal by File.
 
 __________
 
 # Creat Folder Code
 
-### Note Terminal Dosen't Mager Space
+> Note Terminal Dosen't Mager Space
 
-##### 1. mkdir == Make Diarectory Changes
+```mkdir == Make Diarectory Changes
 
-##### IN String  mkdir "filename"
+IN String  mkdir "filename"
 
-##### IN Camel mkdir fileName
+IN Camel mkdir fileName
 
-##### IN Haifan mkdir file-name
+IN Haifan mkdir file-name
 
-##### IN Underscore mkdir file_name
+IN Underscore mkdir file_name
 
-##### Folder me jaane ke liye => cd
+Folder me jaane ke liye => cd & File Name
 
-##### Folder se bahr aane ke liye => cd
+Folder se bahr aane ke liye => cd..
 
-##### Terminal clear karne ke liye  => Clear then enter
-
+Terminal clear karne ke liye  => Clear then enter
+```
 ____
 
-# Viruse Cleaning Code
+# Update & Cleaning 
+```
+sudo apt update
 
-#### 1. sudo apt autoremove
+sudo apt upgrade
 
-#### 2. sudo apt auto clean
+sudo apt autoremove
+
+sudo apt auto clean
+```
+-----
+
+# Restart Laptop
+
+> sudo systemctl restart gdm
 
 -----
 
-# Restart Terminal Code
+# Download App For Linux
 
-#### sudo systemctl restart gdm
+VLC Player => sudo snap install vlc
 
------
+VS Code =>  sudo snap install --classic code 
 
-# Download Any App Code  Code
+Chrome Linux Fisrt Code => sudo apt install wget
+
+Chrome Linux Secound Code => wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+
+Chrome Download => sudo dpkg -i google-chrome-stable_current_amd64.deb
+
+code => sudo apt -f install
+
+--- 
+# Download Any App Code  
 
 #### 1. sudo apt install fileName
 
@@ -56,7 +75,7 @@ ____
 
 ----
 
-# Delete Any App Code  Code
+# Delete Any App Code
 
 #### sudo apt remove fileNme
 
@@ -70,4 +89,15 @@ ____
 
 ---
 
-### The End
+# Genrate ssh key
+```
+mkdir => ~/.ssh
+
+cd ~/.ssh 
+
+ssh-keygen
+
+cat first-key.pub
+```
+
+After Copy the link, go the __github__  and select sshkey in the setting of github. then paste the link and then give the name of the key and this key will be generated.  
